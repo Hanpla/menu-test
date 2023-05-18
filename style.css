@@ -92,7 +92,26 @@ body {
     padding-top: 1rem;
 }
 
-@media(max-width:1217px) {
+@media(max-width:768px) {
+
+    .btn_container {
+        display: flex;
+        justify-content: center;
+    }
+
+    .filter-btn {
+        background: transparent;
+        border-color: #c59d5f;
+        font-size: 0.8rem;
+        text-transform: capitalize;
+        margin: 0 0.15rem;
+        letter-spacing: 1px;
+        border-radius: 0.5rem;
+        padding: 0.375rem 0.75rem;
+        color: #c59d5f;
+        cursor: pointer;
+        transition: all 0.3s linear;
+    }
 
     #main_container {
         width: 90vw;
